@@ -8,7 +8,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='pykeyboard',
-    version='0.1.5',
+    version='0.1.6',
     author='PyMaster',
     author_email='',
     description='Best Keyboard and Pagination for the Pyrogram Library.',
@@ -22,6 +22,7 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Topic :: Internet',
         'Topic :: Communications',
         'Topic :: Communications :: Chat',
@@ -31,7 +32,7 @@ setup(
     keywords='telegram pyrogram keyboard bot userbot',
     url='https://github.com/pystorage/pykeyboard',
     packages=['pykeyboard'],
-    install_requires=['pyrogram', 'tgcrypto'],
+    install_requires=['pyrofork', 'tgcrypto'],
     long_description=long_description,
     long_description_content_type='text/markdown',
 )
